@@ -2,7 +2,9 @@
 
 import io
 import sys
-import urllib.request as resquest
+import urllib.request as request
+
+BUFF_SIZE = 1024
 
 def download_length(response, output, length):
 	
